@@ -1,0 +1,7 @@
+DataScope AutoML Report v3
+
+Fixes:
+- Fix missing numeric_distribution import in EDA.
+- Fix empty high_cardinality_report causing pandas query error in Report.
+- Add .streamlit/config.toml to raise upload/message size to 2048MB.
+- Add local-path loading and row sampling for large tabular files.
